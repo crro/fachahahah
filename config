@@ -1,0 +1,35 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURLakNDQWhLZ0F3SUJBZ0lRZXhNQWRrekdQK3c3QUtncGU2ZFQ3akFOQmdrcWhraUc5dzBCQVFzRkFEQXYKTVMwd0t3WURWUVFERXlRek1XRT
+BNbVptWWkweE16QTFMVFEyTldZdE9UUXdZUzFqWXprM1lqVTNNMkV6WlRrdwpIaGNOTWpBd09ETXhNVFV4TmpVNFdoY05NalV3T0RNd01UWXhOalU0V2pBdk1TMHdLd1lEVlFRREV5UXpNV0UwCk1tWm1ZaTB4TXpBMUxUUTJOV1l0T1RRd1lT
+MWpZemszWWpVM00yRXpaVGt3Z2dFaU1BMEdDU3FHU0liM0RRRUIKQVFVQUE0SUJEd0F3Z2dFS0FvSUJBUUNrVHI4QkVtYnhzKzdhZmhmMlAzQ0l4b1R0dGVteVBwc0EwY2dCZmNNSQpka1hRallNYUNUdWR1bHVHSHJ5M0ZOUDBRK1hJTUszSE
+ZaZGxCUmoxZFdwRVlzcVNPcW00dGszYjFHNGpGaExlCjBWZ3RkckxwWVd4bVBERnk4cjl5Tmh6TmkzZ2JyRDY3Rzd1WkJRSlN2ZGRHQWhZcXJkSnBUd2ZFY3BVbTNkdkoKLzJUcW96TGgvTDVwbkVrSFQ2WVpabDZxUW9CdDhtN2xaSm4xN1pp
+RThZTDRmZUtEd3grYmtCUlM3aFNBbEVuTApHanAyek9SQitJVUhTVmNrdDUvZ3JMRnBlM3JJS253TmpsTGtPMlBzTDhTYjdQR2EyUE4zcFU1c1laSk5zQ0VHCnFpNUNpTVU2blRGaFJKMlV5Ukx4R2F3S1RabHJiLzJDdkM0aG1WeEZxTGVkQW
+dNQkFBR2pRakJBTUE0R0ExVWQKRHdFQi93UUVBd0lDQkRBUEJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJUT2pNcTJWenYvYU1PRQpwMlZkQTFIRGFMVGNnakFOQmdrcWhraUc5dzBCQVFzRkFBT0NBUUVBU2NQZUxsaXgrSS9k
+NkFqdjhiZ0p0TERQCkVyYXkvMldKbFdaZVVIOHBmVjFuOGRjc1ZNR1FKMnhPcDVHelpMc045TXViOVdpWGZ5bGpjZU9BaFhZVVpHc0gKNVZzZytQT09VTWJ4VVQxU2Q3Vm5yN0dpVDBuUU5MZS9ua21CY3pReitySnYvK212Tk5XMFlJK1FlS1
+lFNTBwTgpKOGFyWFpJZE96Zm5rVXVDU28vaDhtVFZncjM5cnQzOEF3YldhVDZqMXVpNkh4WWM1bldkd3B3cXdqa0hkc1BXCkV1ckRaMnlZNGFRbUNpVFpjVUpCajYxT1M3V3VicWUzelNtd29nL1B6SDVnS2Vob3RPMFdJU2lUOHBNSVBLU2MK
+dlhHeDQyaUhFdSs2Z0VOTlh5bXpLVi9iZGFYZlhLNEs1NFBIampyMzFOYStNdW1RUDNuUmZzM2dDUUpGemc9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+    server: https://35.225.27.225
+  name: gke_clutch-278616_us-central1-f_c-rzs85
+contexts:
+- context:
+    cluster: gke_clutch-278616_us-central1-f_c-rzs85
+    user: gke_clutch-278616_us-central1-f_c-rzs85
+  name: gke_clutch-278616_us-central1-f_c-rzs85
+current-context: gke_clutch-278616_us-central1-f_c-rzs85
+kind: Config
+preferences: {}
+users:
+- name: gke_clutch-278616_us-central1-f_c-rzs85
+  user:
+    auth-provider:
+      config:
+        access-token: ya29.a0AfH6SMClYNs8TiPZfgnp-f2jHNf7Yzv3jxabiFPpUNYfYO-T3W6b3P6WHSyiEhjJsb0PRGi_PlXCgbpzBp6Pt7lgi4YNBX4q17K77iR2gTu9t91dRbgjOolHjRFQrv3vEjnOfpLX5pObO-55pCZoFfaGE
+jek6qrx1nsRklHcH0XVQWnlkl_wCLObTx4l8mgrXgKQB0FrZ6GxLzCLj_jvqGBfPCqZ39mFuVzOL7z1hh7qkoPb_grwBUmSoM1mIQM2MEjB6L4OHL-zUQ
+        cmd-args: config config-helper --format=json
+        cmd-path: /usr/lib/google-cloud-sdk/bin/gcloud
+        expiry: "2020-09-08T18:44:30Z"
+        expiry-key: '{.credential.token_expiry}'
+        token-key: '{.credential.access_token}'
+      name: gcp
